@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(image/1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.icon{
+  width: 200px;
+  float: left;
+}
+.logo{
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 10px;
+  float: left;
+  padding-top: 10px;
+}
+.menu{
+  width:400px;
+  float: left;
+}
+ul{
+
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:400px;
+}
+ul li{
+  list-style: none;
+  margin-left: 75px;
+  margin-top: 27px;
+  font-size: 27px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+  color: #ff7200;
+}
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  float: left;
+  color: #fff;
+  position: relative;
+  margin-top:20px;
+}
+.content h2{
+  margin-left: 50px;
+  margin-top: 20px;
+
+
+}
+.content p{
+  margin-left: 20px;
+  margin-top: 5px;
+  padding: 10px;
+}
+.form{
+  width:250px;
+  height:380px;
+  margin-left:870px;
+  background:linear-gradient(to top,rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+  position:absolute;
+  top:-20px;
+  left:100px;
+  margin-top:300px;
+}
+.form h2{
+
+  color:aqua;
+  text-align:center;
+  background-colour:white;
+  padding:8px;
+}
+.form input{
+  width:240px;
+  height:25px;
+  background:transparent;
+  border-bottom:10px solid orange;
+  color:white;
+  font-size:15px;
+  margin-top:20px;
+}
+.form input:focus{
+  outline: none;
+
+}
+::placeholder{
+  color: #fff;
+  font-family: Arial;
+}
+.btnn{
+  width:240px;
+  height:40px;
+  background:orange;
+  margin-top:30px;
+  font-size:19px;
+  border-radius:10px;
+  margin-left:5px;
+  color:#ff7200;
+  transition:0.4s ease;
+}
+.btnn:hover{
+  background: #fff;
+  color: #ff7200;
+
+
+}
+.btnn a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
